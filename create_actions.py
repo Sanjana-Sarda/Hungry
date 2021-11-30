@@ -66,13 +66,3 @@ def discretize_action_space(items):
             action_space[ind, i] = action
     
     return action_space
-
-
-def main():
-    data = get_data("/Users/natbishay/Hungry/data.json")
-    items = get_items_and_bounds(data)
-    action_space = discretize_action_space(items)
-    print(items)
-    print(action_space)
-
-main()
