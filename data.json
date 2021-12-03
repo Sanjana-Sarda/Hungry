@@ -1,63 +1,6 @@
 [
     {
-        "date": "2015-08-23T07:00:00.000Z",
-        "product": "Vine Tomatoes",
-        "quantity": "1 lb",
-        "amount": 1,
-        "unit": "lb",
-        "type": "Fruits & Vegetables"
-    },
-    {
-        "date": "2015-08-23T07:00:00.000Z",
-        "product": "Spinach",
-        "quantity": "1 pack",
-        "amount": 1,
-        "unit": "pack",
-        "type": "Fruits & Vegetables"
-    },
-    {
-        "date": "2015-08-23T07:00:00.000Z",
-        "product": "Bell Peppers",
-        "quantity": 1,
-        "amount": 1,
-        "unit": "single",
-        "type": "Fruits & Vegetables"
-    },
-    {
-        "date": "2015-08-23T07:00:00.000Z",
-        "product": "rolls/buns",
-        "quantity": "1 pack",
-        "amount": 1,
-        "unit": "pack",
-        "type": "Bread"
-    },
-    {
-        "date": "2015-08-23T07:00:00.000Z",
-        "product": "Oranges",
-        "quantity": "1 pack",
-        "amount": 1,
-        "unit": "pack",
-        "type": "Fruits & Vegetables"
-    },
-    {
-        "date": "2015-08-23T07:00:00.000Z",
-        "product": "1 dz eggs",
-        "quantity": "1 box",
-        "amount": 1,
-        "unit": "box",
-        "type": "Eggs"
-    },
-    {
-        "date": "2015-08-30T07:00:00.000Z",
-        "product": "yogurt",
-        "brand": "Yoplait",
-        "quantity": 1,
-        "amount": 1,
-        "unit": "single",
-        "type": "Dairy"
-    },
-    {
-        "date": "2015-08-30T07:00:00.000Z",
+        "date": "2015-08-30",
         "product": "whole milk",
         "quantity": "1 gallon",
         "amount": 1,
@@ -65,7 +8,7 @@
         "type": "Dairy"
     },
     {
-        "date": "2015-08-30T07:00:00.000Z",
+        "date": "2015-08-30",
         "product": "medium yellow onions",
         "quantity": 2,
         "amount": 2,
@@ -73,7 +16,7 @@
         "type": "Fruits & Vegetables"
     },
     {
-        "date": "2015-08-30T07:00:00.000Z",
+        "date": "2015-08-30",
         "product": "sugar",
         "quantity": "32 oz",
         "amount": 32,
@@ -81,7 +24,7 @@
         "type": "Pantry"
     },
     {
-        "date": "2015-09-06T07:00:00.000Z",
+        "date": "2015-09-06",
         "product": "whole milk",
         "quantity": "1 gallon",
         "amount": 1,
@@ -89,15 +32,7 @@
         "type": "Dairy"
     },
     {
-        "date": "2015-09-06T07:00:00.000Z",
-        "product": "flour",
-        "quantity": "5 lb",
-        "amount": 5,
-        "unit": "lb",
-        "type": "Pantry"
-    },
-    {
-        "date": "2015-09-06T07:00:00.000Z",
+        "date": "2015-09-06",
         "product": "butter",
         "quantity": "8 oz",
         "amount": 8,
@@ -105,7 +40,7 @@
         "type": "Dairy"
     },
     {
-        "date": "2015-09-13T07:00:00.000Z",
+        "date": "2015-09-13",
         "product": "whole milk",
         "quantity": "1 gallon",
         "amount": 1,
@@ -113,31 +48,7 @@
         "type": "Dairy"
     },
     {
-        "date": "2015-09-13T07:00:00.000Z",
-        "product": "Vine Tomatoes",
-        "quantity": "1 lb",
-        "amount": 1,
-        "unit": "lb",
-        "type": "Fruits & Vegetables"
-    },
-    {
-        "date": "2015-09-13T07:00:00.000Z",
-        "product": "Spinach",
-        "quantity": "1 pack",
-        "amount": 1,
-        "unit": "pack",
-        "type": "Fruits & Vegetables"
-    },
-    {
-        "date": "2015-09-13T07:00:00.000Z",
-        "product": "Broccoli ",
-        "quantity": "1 crown",
-        "amount": 1,
-        "unit": "crown",
-        "type": "Fruits & Vegetables"
-    },
-    {
-        "date": "2015-09-13T07:00:00.000Z",
+        "date": "2015-09-13",
         "product": "butter",
         "quantity": "8 oz",
         "amount": 8,
@@ -145,23 +56,7 @@
         "type": "Dairy"
     },
     {
-        "date": "2015-09-13T07:00:00.000Z",
-        "product": "lemon curd",
-        "quantity": "10 oz",
-        "amount": 10,
-        "unit": "oz",
-        "type": "Dairy"
-    },
-    {
-        "date": "2015-09-13T07:00:00.000Z",
-        "product": "Croissants",
-        "quantity": "4 count",
-        "amount": 4,
-        "unit": "count",
-        "type": "Bread"
-    },
-    {
-        "date": "2015-09-20T07:00:00.000Z",
+        "date": "2015-09-20",
         "product": "whole milk",
         "quantity": "1 gallon ",
         "amount": 1,
@@ -169,7 +64,7 @@
         "type": "Dairy"
     },
     {
-        "date": "2015-09-20T07:00:00.000Z",
+        "date": "2015-09-20",
         "product": "sugar",
         "quantity": "32 oz",
         "amount": 32,
@@ -177,7 +72,7 @@
         "type": "Pantry"
     },
     {
-        "date": "2015-09-27T07:00:00.000Z",
+        "date": "2015-09-27",
         "product": "Strawberries",
         "quantity": "16 oz",
         "amount": 16,
@@ -185,15 +80,7 @@
         "type": "Fruits & Vegetables"
     },
     {
-        "date": "2015-10-04T07:00:00.000Z",
-        "product": "ham",
-        "quantity": "9 oz",
-        "amount": 9,
-        "unit": "oz",
-        "type": "Meats"
-    },
-    {
-        "date": "2015-10-04T07:00:00.000Z",
+        "date": "2015-10-04",
         "product": "sugar",
         "quantity": "32 oz",
         "amount": 32,
@@ -201,7 +88,7 @@
         "type": "Pantry"
     },
     {
-        "date": "2015-10-04T07:00:00.000Z",
+        "date": "2015-10-04",
         "product": "whole milk",
         "quantity": "1 gallon",
         "amount": 1,
@@ -209,15 +96,7 @@
         "type": "Dairy"
     },
     {
-        "date": "2015-10-11T07:00:00.000Z",
-        "product": "bottled beer",
-        "quantity": "6 pack",
-        "amount": 6,
-        "unit": "pack",
-        "type": "Alcohol "
-    },
-    {
-        "date": "2015-10-11T07:00:00.000Z",
+        "date": "2015-10-11",
         "product": "Strawberries",
         "quantity": "16 oz",
         "amount": 16,
@@ -225,23 +104,7 @@
         "type": "Fruits & Vegetables"
     },
     {
-        "date": "2015-10-11T07:00:00.000Z",
-        "product": "1 dz eggs",
-        "quantity": "1 box",
-        "amount": 1,
-        "unit": "box",
-        "type": "Eggs"
-    },
-    {
-        "date": "2015-10-11T07:00:00.000Z",
-        "product": "baking powder",
-        "quantity": "8 oz",
-        "amount": 8,
-        "unit": "oz",
-        "type": "Pantry"
-    },
-    {
-        "date": "2015-10-18T07:00:00.000Z",
+        "date": "2015-10-18",
         "product": "medium yellow onions",
         "quantity": 1,
         "amount": 1,
@@ -249,112 +112,15 @@
         "type": "Fruits & Vegetables"
     },
     {
-        "date": "2015-10-18T07:00:00.000Z",
-        "product": "Croissants",
-        "quantity": "4 count",
-        "amount": 4,
-        "unit": "count",
-        "type": "Bread"
-    },
-    {
-        "date": "2015-10-18T07:00:00.000Z",
-        "product": "rolls/buns",
-        "quantity": "1 pack",
-        "amount": 1,
-        "unit": "pack",
-        "type": "Bread"
-    },
-    {
-        "date": "2015-10-18T07:00:00.000Z",
-        "product": "condensed milk",
-        "quantity": "14 oz",
-        "amount": 14,
-        "unit": "oz",
-        "type": "Pantry"
-    },
-    {
-        "date": "2015-10-18T07:00:00.000Z",
-        "product": "Blackberries",
+        "date": "2015-10-18",
+        "product": "Strawberries",
         "quantity": "16 oz",
         "amount": 16,
         "unit": "oz",
         "type": "Fruits & Vegetables"
     },
     {
-        "date": "2015-10-18T07:00:00.000Z",
-        "product": "waffles",
-        "quantity": "10 count",
-        "amount": 10,
-        "unit": "count",
-        "type": "Frozen Food"
-    },
-    {
-        "date": "2015-10-18T07:00:00.000Z",
-        "product": "bottled beer",
-        "quantity": "6 pack",
-        "amount": 6,
-        "unit": "pack",
-        "type": "Alcohol "
-    },
-    {
-        "date": "2015-10-25T07:00:00.000Z",
-        "product": "Vine Tomatoes",
-        "quantity": "1 lb",
-        "amount": 1,
-        "unit": "lb",
-        "type": "Fruits & Vegetables"
-    },
-    {
-        "date": "2015-10-25T07:00:00.000Z",
-        "product": "Spinach",
-        "quantity": "1 pack",
-        "amount": 1,
-        "unit": "pack",
-        "type": "Fruits & Vegetables"
-    },
-    {
-        "date": "2015-10-25T07:00:00.000Z",
-        "product": "Bell Peppers",
-        "quantity": 1,
-        "amount": 1,
-        "unit": "single",
-        "type": "Fruits & Vegetables"
-    },
-    {
-        "date": "2015-10-25T07:00:00.000Z",
-        "product": "rolls/buns",
-        "quantity": "1 pack",
-        "amount": 1,
-        "unit": "pack",
-        "type": "Bread"
-    },
-    {
-        "date": "2015-10-25T07:00:00.000Z",
-        "product": "Oranges",
-        "quantity": "1 pack",
-        "amount": 1,
-        "unit": "pack",
-        "type": "Fruits & Vegetables"
-    },
-    {
-        "date": "2015-10-25T07:00:00.000Z",
-        "product": "1 dz eggs",
-        "quantity": "1 box",
-        "amount": 1,
-        "unit": "box",
-        "type": "Eggs"
-    },
-    {
-        "date": "2015-11-01T07:00:00.000Z",
-        "product": "yogurt",
-        "brand": "Yoplait",
-        "quantity": 1,
-        "amount": 1,
-        "unit": "single",
-        "type": "Dairy"
-    },
-    {
-        "date": "2015-11-01T07:00:00.000Z",
+        "date": "2015-11-01",
         "product": "whole milk",
         "quantity": "1 gallon",
         "amount": 1,
@@ -362,7 +128,7 @@
         "type": "Dairy"
     },
     {
-        "date": "2015-11-01T07:00:00.000Z",
+        "date": "2015-11-01",
         "product": "medium yellow onions",
         "quantity": 2,
         "amount": 2,
@@ -370,7 +136,7 @@
         "type": "Fruits & Vegetables"
     },
     {
-        "date": "2015-11-01T07:00:00.000Z",
+        "date": "2015-11-01",
         "product": "sugar",
         "quantity": "32 oz",
         "amount": 32,
@@ -378,7 +144,7 @@
         "type": "Pantry"
     },
     {
-        "date": "2015-11-08T08:00:00.000Z",
+        "date": "2015-11-08",
         "product": "whole milk",
         "quantity": "1 gallon",
         "amount": 1,
@@ -386,15 +152,7 @@
         "type": "Dairy"
     },
     {
-        "date": "2015-11-08T08:00:00.000Z",
-        "product": "flour",
-        "quantity": "5 lb",
-        "amount": 5,
-        "unit": "lb",
-        "type": "Pantry"
-    },
-    {
-        "date": "2015-11-08T08:00:00.000Z",
+        "date": "2015-11-08",
         "product": "butter",
         "quantity": "8 oz",
         "amount": 8,
@@ -402,7 +160,7 @@
         "type": "Dairy"
     },
     {
-        "date": "2015-11-15T08:00:00.000Z",
+        "date": "2015-11-15",
         "product": "whole milk",
         "quantity": "1 gallon",
         "amount": 1,
@@ -410,31 +168,7 @@
         "type": "Dairy"
     },
     {
-        "date": "2015-11-15T08:00:00.000Z",
-        "product": "Vine Tomatoes",
-        "quantity": "1 lb",
-        "amount": 1,
-        "unit": "lb",
-        "type": "Fruits & Vegetables"
-    },
-    {
-        "date": "2015-11-15T08:00:00.000Z",
-        "product": "Spinach",
-        "quantity": "1 pack",
-        "amount": 1,
-        "unit": "pack",
-        "type": "Fruits & Vegetables"
-    },
-    {
-        "date": "2015-11-15T08:00:00.000Z",
-        "product": "Broccoli ",
-        "quantity": "1 crown",
-        "amount": 1,
-        "unit": "crown",
-        "type": "Fruits & Vegetables"
-    },
-    {
-        "date": "2015-11-15T08:00:00.000Z",
+        "date": "2015-11-15",
         "product": "butter",
         "quantity": "8 oz",
         "amount": 8,
@@ -442,23 +176,7 @@
         "type": "Dairy"
     },
     {
-        "date": "2015-11-15T08:00:00.000Z",
-        "product": "lemon curd",
-        "quantity": "10 oz",
-        "amount": 10,
-        "unit": "oz",
-        "type": "Dairy"
-    },
-    {
-        "date": "2015-11-15T08:00:00.000Z",
-        "product": "Croissants",
-        "quantity": "4 count",
-        "amount": 4,
-        "unit": "count",
-        "type": "Bread"
-    },
-    {
-        "date": "2015-11-22T08:00:00.000Z",
+        "date": "2015-11-22",
         "product": "whole milk",
         "quantity": "1 gallon ",
         "amount": 1,
@@ -466,7 +184,7 @@
         "type": "Dairy"
     },
     {
-        "date": "2015-11-22T08:00:00.000Z",
+        "date": "2015-11-22",
         "product": "sugar",
         "quantity": "32 oz",
         "amount": 32,
@@ -474,7 +192,7 @@
         "type": "Pantry"
     },
     {
-        "date": "2015-11-22T08:00:00.000Z",
+        "date": "2015-11-22",
         "product": "Strawberries",
         "quantity": "16 oz",
         "amount": 16,
@@ -482,15 +200,7 @@
         "type": "Fruits & Vegetables"
     },
     {
-        "date": "2015-11-29T08:00:00.000Z",
-        "product": "ham",
-        "quantity": "9 oz",
-        "amount": 9,
-        "unit": "oz",
-        "type": "Meats"
-    },
-    {
-        "date": "2015-11-29T08:00:00.000Z",
+        "date": "2015-11-29",
         "product": "sugar",
         "quantity": "32 oz",
         "amount": 32,
@@ -498,7 +208,7 @@
         "type": "Pantry"
     },
     {
-        "date": "2015-11-29T08:00:00.000Z",
+        "date": "2015-11-29",
         "product": "whole milk",
         "quantity": "1 gallon",
         "amount": 1,
@@ -506,15 +216,7 @@
         "type": "Dairy"
     },
     {
-        "date": "2015-12-06T08:00:00.000Z",
-        "product": "bottled beer",
-        "quantity": "6 pack",
-        "amount": 6,
-        "unit": "pack",
-        "type": "Alcohol "
-    },
-    {
-        "date": "2015-12-06T08:00:00.000Z",
+        "date": "2015-12-06",
         "product": "Strawberries",
         "quantity": "16 oz",
         "amount": 16,
@@ -522,23 +224,7 @@
         "type": "Fruits & Vegetables"
     },
     {
-        "date": "2015-12-06T08:00:00.000Z",
-        "product": "1 dz eggs",
-        "quantity": "1 box",
-        "amount": 1,
-        "unit": "box",
-        "type": "Eggs"
-    },
-    {
-        "date": "2015-12-06T08:00:00.000Z",
-        "product": "baking powder",
-        "quantity": "8 oz",
-        "amount": 8,
-        "unit": "oz",
-        "type": "Pantry"
-    },
-    {
-        "date": "2015-12-13T08:00:00.000Z",
+        "date": "2015-12-13",
         "product": "medium yellow onions",
         "quantity": 1,
         "amount": 1,
@@ -546,51 +232,11 @@
         "type": "Fruits & Vegetables"
     },
     {
-        "date": "2015-12-13T08:00:00.000Z",
-        "product": "Croissants",
-        "quantity": "4 count",
-        "amount": 4,
-        "unit": "count",
-        "type": "Bread"
-    },
-    {
-        "date": "2015-12-13T08:00:00.000Z",
-        "product": "rolls/buns",
-        "quantity": "1 pack",
-        "amount": 1,
-        "unit": "pack",
-        "type": "Bread"
-    },
-    {
-        "date": "2015-12-13T08:00:00.000Z",
-        "product": "condensed milk",
-        "quantity": "14 oz",
-        "amount": 14,
-        "unit": "oz",
-        "type": "Pantry"
-    },
-    {
-        "date": "2015-12-13T08:00:00.000Z",
-        "product": "Blackberries",
+        "date": "2015-12-13",
+        "product": "Strawberries",
         "quantity": "16 oz",
         "amount": 16,
         "unit": "oz",
         "type": "Fruits & Vegetables"
-    },
-    {
-        "date": "2015-12-13T08:00:00.000Z",
-        "product": "waffles",
-        "quantity": "10 count",
-        "amount": 10,
-        "unit": "count",
-        "type": "Frozen Food"
-    },
-    {
-        "date": "2015-12-13T08:00:00.000Z",
-        "product": "bottled beer",
-        "quantity": "6 pack",
-        "amount": 6,
-        "unit": "pack",
-        "type": "Alcohol "
     }
 ]
