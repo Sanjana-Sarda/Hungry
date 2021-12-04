@@ -1,0 +1,242 @@
+[
+    {
+        "date": "2015-08-30",
+        "product": "whole milk",
+        "quantity": "1 gallon",
+        "amount": 1,
+        "unit": "gallon",
+        "type": "Dairy"
+    },
+    {
+        "date": "2015-08-30",
+        "product": "medium yellow onions",
+        "quantity": 2,
+        "amount": 2,
+        "unit": "single",
+        "type": "Fruits & Vegetables"
+    },
+    {
+        "date": "2015-08-30",
+        "product": "sugar",
+        "quantity": "32 oz",
+        "amount": 32,
+        "unit": "oz",
+        "type": "Pantry"
+    },
+    {
+        "date": "2015-09-06",
+        "product": "whole milk",
+        "quantity": "1 gallon",
+        "amount": 1,
+        "unit": "gallon",
+        "type": "Dairy"
+    },
+    {
+        "date": "2015-09-06",
+        "product": "butter",
+        "quantity": "8 oz",
+        "amount": 8,
+        "unit": "oz",
+        "type": "Dairy"
+    },
+    {
+        "date": "2015-09-13",
+        "product": "whole milk",
+        "quantity": "1 gallon",
+        "amount": 1,
+        "unit": "gallon",
+        "type": "Dairy"
+    },
+    {
+        "date": "2015-09-13",
+        "product": "butter",
+        "quantity": "8 oz",
+        "amount": 8,
+        "unit": "oz",
+        "type": "Dairy"
+    },
+    {
+        "date": "2015-09-20",
+        "product": "whole milk",
+        "quantity": "1 gallon ",
+        "amount": 1,
+        "unit": "gallon ",
+        "type": "Dairy"
+    },
+    {
+        "date": "2015-09-20",
+        "product": "sugar",
+        "quantity": "32 oz",
+        "amount": 32,
+        "unit": "oz",
+        "type": "Pantry"
+    },
+    {
+        "date": "2015-09-27",
+        "product": "Strawberries",
+        "quantity": "16 oz",
+        "amount": 16,
+        "unit": "oz",
+        "type": "Fruits & Vegetables"
+    },
+    {
+        "date": "2015-10-04",
+        "product": "sugar",
+        "quantity": "32 oz",
+        "amount": 32,
+        "unit": "oz",
+        "type": "Pantry"
+    },
+    {
+        "date": "2015-10-04",
+        "product": "whole milk",
+        "quantity": "1 gallon",
+        "amount": 1,
+        "unit": "gallon",
+        "type": "Dairy"
+    },
+    {
+        "date": "2015-10-11",
+        "product": "Strawberries",
+        "quantity": "16 oz",
+        "amount": 16,
+        "unit": "oz",
+        "type": "Fruits & Vegetables"
+    },
+    {
+        "date": "2015-10-18",
+        "product": "medium yellow onions",
+        "quantity": 1,
+        "amount": 1,
+        "unit": "single",
+        "type": "Fruits & Vegetables"
+    },
+    {
+        "date": "2015-10-18",
+        "product": "Strawberries",
+        "quantity": "16 oz",
+        "amount": 16,
+        "unit": "oz",
+        "type": "Fruits & Vegetables"
+    },
+    {
+        "date": "2015-11-01",
+        "product": "whole milk",
+        "quantity": "1 gallon",
+        "amount": 1,
+        "unit": "gallon",
+        "type": "Dairy"
+    },
+    {
+        "date": "2015-11-01",
+        "product": "medium yellow onions",
+        "quantity": 2,
+        "amount": 2,
+        "unit": "single",
+        "type": "Fruits & Vegetables"
+    },
+    {
+        "date": "2015-11-01",
+        "product": "sugar",
+        "quantity": "32 oz",
+        "amount": 32,
+        "unit": "oz",
+        "type": "Pantry"
+    },
+    {
+        "date": "2015-11-08",
+        "product": "whole milk",
+        "quantity": "1 gallon",
+        "amount": 1,
+        "unit": "gallon",
+        "type": "Dairy"
+    },
+    {
+        "date": "2015-11-08",
+        "product": "butter",
+        "quantity": "8 oz",
+        "amount": 8,
+        "unit": "oz",
+        "type": "Dairy"
+    },
+    {
+        "date": "2015-11-15",
+        "product": "whole milk",
+        "quantity": "1 gallon",
+        "amount": 1,
+        "unit": "gallon",
+        "type": "Dairy"
+    },
+    {
+        "date": "2015-11-15",
+        "product": "butter",
+        "quantity": "8 oz",
+        "amount": 8,
+        "unit": "oz",
+        "type": "Dairy"
+    },
+    {
+        "date": "2015-11-22",
+        "product": "whole milk",
+        "quantity": "1 gallon ",
+        "amount": 1,
+        "unit": "gallon ",
+        "type": "Dairy"
+    },
+    {
+        "date": "2015-11-22",
+        "product": "sugar",
+        "quantity": "32 oz",
+        "amount": 32,
+        "unit": "oz",
+        "type": "Pantry"
+    },
+    {
+        "date": "2015-11-22",
+        "product": "Strawberries",
+        "quantity": "16 oz",
+        "amount": 16,
+        "unit": "oz",
+        "type": "Fruits & Vegetables"
+    },
+    {
+        "date": "2015-11-29",
+        "product": "sugar",
+        "quantity": "32 oz",
+        "amount": 32,
+        "unit": "oz",
+        "type": "Pantry"
+    },
+    {
+        "date": "2015-11-29",
+        "product": "whole milk",
+        "quantity": "1 gallon",
+        "amount": 1,
+        "unit": "gallon",
+        "type": "Dairy"
+    },
+    {
+        "date": "2015-12-06",
+        "product": "Strawberries",
+        "quantity": "16 oz",
+        "amount": 16,
+        "unit": "oz",
+        "type": "Fruits & Vegetables"
+    },
+    {
+        "date": "2015-12-13",
+        "product": "medium yellow onions",
+        "quantity": 1,
+        "amount": 1,
+        "unit": "single",
+        "type": "Fruits & Vegetables"
+    },
+    {
+        "date": "2015-12-13",
+        "product": "Strawberries",
+        "quantity": "16 oz",
+        "amount": 16,
+        "unit": "oz",
+        "type": "Fruits & Vegetables"
+    }
+]
