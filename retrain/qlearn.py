@@ -29,7 +29,8 @@ def action(state):
 
 def setup(D):
     global actions 
-    actions = [1, 2, 3, 4, 5, 6, 7] #D['a'].unique()
+    #actions = [1, 2, 3, 4, 5, 6, 7] #
+    actions = D['a'].unique()
     print(actions)
     #for o in range (num_of_observations):
         #state = start_state
@@ -75,16 +76,3 @@ def compute(infile, n, outfile):
     #vars = D.nunique(axis=0)
     #print(vars)
     print (time.time()-start)
-
-def main():
-    if len(sys.argv) != 4:
-        raise Exception("usage: python qlearn.py <infile>.csv <outfile>.policy n")
-
-    inputfilename = sys.argv[1]
-    outputfilename = sys.argv[2]
-    n = sys.argv[3]
-    compute(inputfilename, n, outputfilename)
-
-
-if __name__ == '__main__':
-    main()
