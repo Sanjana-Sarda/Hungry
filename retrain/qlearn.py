@@ -7,7 +7,7 @@ import time
 
 
 alphas = np.linspace(1.0, 0.2, 100)
-alpha = 1.0
+alpha = 0.9
 gamma = 0.95
 eps = 0.2
 q_table = dict()
