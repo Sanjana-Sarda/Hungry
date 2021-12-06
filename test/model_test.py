@@ -13,11 +13,11 @@ import matplotlib.pyplot as plt
 ## Policy array order: [oranges milk bread flour onions]
 def eval_model():
 
-    bread = pd.read_csv("Policies/Bread.policy", header=None).to_numpy()
-    orange = pd.read_csv("Policies/Oranges.policy", header=None).to_numpy()
-    milk = pd.read_csv("Policies/Milk.policy", header=None).to_numpy()
-    onion = pd.read_csv("Policies/Onions.policy", header=None).to_numpy()
-    flour = pd.read_csv("Policies/Flour.policy", header=None).to_numpy()
+    bread = pd.read_csv("Bread.policy", header=None).to_numpy()
+    orange = pd.read_csv("Oranges.policy", header=None).to_numpy()
+    milk = pd.read_csv("Milk.policy", header=None).to_numpy()
+    onion = pd.read_csv("Onions.policy", header=None).to_numpy()
+    flour = pd.read_csv("Flour.policy", header=None).to_numpy()
 
     # Get test data 
     
@@ -58,21 +58,27 @@ def eval_model():
         # Compute baseline policy reward
         baseline_reward = compute_reward(state, cost, baseline_policy, expired, total_use, actual_use)
     
+        actual_reward = compute_reward(state, cost, action, expired, total_use, actual_use)
+        
+        
         # Add computed information to lists
         baseline_policies_list[:, i] = baseline_policy.reshape((5,))
         optimal_policies_list[:, i] = opt_policy.reshape((5,))
         optimal_reward_list[:, i] = optimal_reward.reshape((5,))
         baseline_reward_list[:, i] = baseline_reward.reshape((5,))
         actual_action_list[:, i] = action.reshape((5,))
-        actual_reward_list[:, i] = reward.reshape((5,))
+        actual_reward_list[:, i] = actual_reward.reshape((5,))
     
     return baseline_policies_list, optimal_policies_list, optimal_reward_list, baseline_reward_list, actual_action_list, actual_reward_list
     
 
 def compute_reward(state, cost, action, expired, total_use, actual_use):
 
-    total_use = np.minimum(state + action, total_use)
-    expired = total_use - actual_use
+    total_use = np.minimum(state + action - 2, total_use)
+#    [oranges milk bread flour onions]
+    expired = np.maximum(state - 1 - actual_use, np.zeros((5, 1)))
+    
+    expired[3] = 0
     
     # cost * (action - 1) - (5 * cost*Expired) + (5*used)
     reward = -cost*(action - 1) - (0.5* expired) + (0.5* actual_use)
@@ -88,4 +94,76 @@ print("Baseline Reward:", brl)
 print("Optimal Rewards List:", orl)
 print("Actual Reward:", arl)
 
-plt.plot([brl.T)
+# Individual reward line graphs per item
+#plt.figure(figsize=(16, 12)) 
+f = plt.figure(figsize=(16,8))
+ax = f.add_subplot(511)
+ax2 = f.add_subplot(512)
+ax3 = f.add_subplot(513)
+ax4 = f.add_subplot(514)
+ax5 = f.add_subplot(515)
+#plt.subplot(5, 1, 1)
+
+ax.plot(np.arange(1, 9), brl[0])
+ax.plot(np.arange(1, 9), orl[0])
+ax.plot(np.arange(1, 9), arl[0])
+
+ax.set_xlabel("Week")
+ax.set_ylabel("Reward")
+ax.set_title("Oranges Reward Comparison")
+ax.legend(['Baseline', 'Model Output', 'Actual'], loc="upper left")
+
+#plt.subplot(5, 2, 1)
+
+ax2.plot(np.arange(1, 9), brl[1])
+ax2.plot(np.arange(1, 9), orl[1])
+ax2.plot(np.arange(1, 9), arl[1])
+
+ax2.set_xlabel("Week")
+ax2.set_ylabel("Reward")
+ax2.set_title("Milk Reward Comparison")
+ax2.legend(['Baseline', 'Model Output', 'Actual'], loc="upper left")
+
+#plt.subplot(5, 3, 1)
+
+ax3.plot(np.arange(1, 9), brl[2])
+ax3.plot(np.arange(1, 9), orl[2])
+ax3.plot(np.arange(1, 9), arl[2])
+
+ax3.set_xlabel("Week")
+ax3.set_ylabel("Reward")
+ax3.set_title("Bread Reward Comparison")
+ax3.legend(['Baseline', 'Model Output', 'Actual'], loc="upper left")
+
+#plt.subplot(5, 4, 1)
+
+ax4.plot(np.arange(1, 9), brl[3])
+ax4.plot(np.arange(1, 9), orl[3])
+ax4.plot(np.arange(1, 9), arl[3])
+
+ax4.set_xlabel("Week")
+ax4.set_ylabel("Reward")
+ax4.set_title("Flour Reward Comparison")
+ax4.legend(['Baseline', 'Model Output', 'Actual'], loc="upper left")
+
+#plt.subplot(5, 5, 1)
+
+ax5.plot(np.arange(1, 9), brl[4])
+ax5.plot(np.arange(1, 9), orl[4])
+ax5.plot(np.arange(1, 9), arl[4])
+
+ax5.set_xlabel("Week")
+ax5.set_ylabel("Reward")
+ax5.set_title("Onions Reward Comparison")
+ax5.legend(['Baseline', 'Model Output', 'Actual'], loc="upper left")
+
+# Total reward for each time step comparison
+plt.figure()
+plt.plot(np.arange(1, 9), np.sum(brl, axis=0))
+plt.plot(np.arange(1, 9), np.sum(orl, axis=0))
+plt.plot(np.arange(1, 9), np.sum(arl, axis=0))
+
+plt.title("Total Weekly Rewards Comparison")
+plt.ylabel("Reward")
+plt.xlabel("Week")
+plt.legend(['Baseline', 'Model Output', 'Actual'], loc="upper left")
